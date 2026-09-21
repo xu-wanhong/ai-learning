@@ -1,0 +1,22 @@
+# Python-generated files
+__pycache__/
+*.py[oc]
+build/
+dist/
+wheels/
+*.egg-info
+
+# Virtual environments
+.venv
+
+# 环境变量与密钥（绝对不能提交！）
+.env
+.env.*
+!.env.example
+
+# macOS
+.DS_Store
+
+# 编辑器
+.vscode/
+.idea/

@@ -1,0 +1,23 @@
+[project]
+name = "ai-learning"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "徐胜利", email = "15055944581@qq.com" }
+]
+requires-python = ">=3.13"
+dependencies = [
+    "requests>=2.34.2",
+]
+
+[project.scripts]
+ai-learning = "ai_learning:main"
+
+[[tool.uv.index]]
+url = "https://pypi.tuna.tsinghua.edu.cn/simple"
+default = true
+
+[build-system]
+requires = ["uv_build>=0.12.17,<0.13.0"]
+build-backend = "uv_build"
