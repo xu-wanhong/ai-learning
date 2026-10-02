@@ -1,0 +1,50 @@
+{
+  "TASK-003": {
+    "name": "rose",
+    "status": "failed",
+    "attempts": 3,
+    "error": "ValueError rose 服务端错误"
+  },
+  "TASK-002": {
+    "name": "jack",
+    "status": "success",
+    "attempts": 1,
+    "result": "jack执行成功，第1次尝试"
+  },
+  "TASK-005": {
+    "name": "bob",
+    "status": "success",
+    "attempts": 1,
+    "result": "bob执行成功，第1次尝试"
+  },
+  "TASK-004": {
+    "name": "lucy",
+    "status": "success",
+    "attempts": 1,
+    "result": "lucy执行成功，第1次尝试"
+  },
+  "TASK-001": {
+    "name": "tom",
+    "status": "success",
+    "attempts": 1,
+    "result": "tom执行成功，第1次尝试"
+  },
+  "TASK-006": {
+    "name": "amy",
+    "status": "success",
+    "attempts": 3,
+    "result": "amy执行成功，第3次尝试"
+  },
+  "TASK-008": {
+    "name": "zoe",
+    "status": "success",
+    "attempts": 1,
+    "result": "zoe执行成功，第1次尝试"
+  },
+  "TASK-007": {
+    "name": "ken",
+    "status": "failed",
+    "attempts": 3,
+    "error": "TimeoutError 连续3次失败 超时4s"
+  }
+}
